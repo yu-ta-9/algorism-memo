@@ -31,4 +31,6 @@ function main() {
   }
 }
 
+console.time("exec");
 main();
+console.timeEnd("exec");
